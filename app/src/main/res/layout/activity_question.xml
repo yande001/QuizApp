@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:background="@color/color4">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="What country does this flag belong to?"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/color1"/>
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:src="@drawable/ic_flag_of_germany"
+            android:contentDescription="Image"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"/>
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="0/10"
+                android:textSize="14sp"
+                android:padding="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option One"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/tvOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option Two"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option Three"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option Four"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/submit"
+            android:backgroundTint="@color/color2"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

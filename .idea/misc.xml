@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/correct_option_border_bg.xml" value="0.1245" />
+        <entry key="app/src/main/res/drawable/select_option_border_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/wrong_option_border_bg.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/activity_question.xml" value="0.21801300048828126" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/content_question.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.17753623188405798" />

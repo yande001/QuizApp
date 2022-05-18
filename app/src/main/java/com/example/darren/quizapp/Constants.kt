@@ -1,6 +1,12 @@
 package com.example.darren.quizapp
 
 object Constants {
+
+    const val USER_NAME: String = "user_name"
+    const val TOTAL_QUESTIONS = "total_questions"
+    const val CORRECT_ANSWER = "correct_answer"
+
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
